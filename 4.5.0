@@ -1,0 +1,39 @@
+
+> classic-level@1.2.0 install E:\blockchain\20230402\zero2hero-Exercise2\node_modules\classic-level
+> node-gyp-build
+
+
+> secp256k1@4.0.3 install E:\blockchain\20230402\zero2hero-Exercise2\node_modules\secp256k1
+> node-gyp-build || exit 0
+
+
+> keccak@3.0.3 install E:\blockchain\20230402\zero2hero-Exercise2\node_modules\keccak
+> node-gyp-build || exit 0
+
++ @nomicfoundation/hardhat-network-helpers@1.0.0
++ @nomiclabs/hardhat-ethers@2.0.0
++ hardhat@2.11.1
++ hardhat-gas-reporter@1.0.8
++ @nomiclabs/hardhat-etherscan@3.0.0
++ @nomicfoundation/hardhat-chai-matchers@1.0.0
++ solidity-coverage@0.8.0
++ chai@4.2.0
++ ethers@5.4.7
++ @typechain/hardhat@6.1.2
++ typechain@8.1.0
++ @typechain/ethers-v5@10.1.0
++ @types/chai@4.2.0
++ @ethersproject/providers@5.5.0
++ @ethersproject/abi@5.5.0
++ @types/mocha@10.0.1
++ @types/node@18.15.11
++ ts-node@10.9.1
++ typescript@5.0.3
++ @nomicfoundation/hardhat-toolbox@2.0.0
+added 715 packages from 592 contributors and audited 730 packages in 124.325s
+
+143 packages are looking for funding
+  run `npm fund` for details
+
+found 7 vulnerabilities (1 moderate, 4 high, 2 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details

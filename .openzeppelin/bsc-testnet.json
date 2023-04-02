@@ -1,0 +1,168 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xC9EE053d12bA32de417Daf9d04E6D705b78D37b2",
+    "txHash": "0xc572b78d14d37f9be45fa5c46ba8ba1b8ea16ea9d46100c134d211a6f18e2e2b"
+  },
+  "proxies": [
+    {
+      "address": "0x315C0Bcc55310388a38b968912C109194a2Ed88C",
+      "txHash": "0x7f432cfd2eb6eaec7b8e28e7cc0d49c80ddb09f07cb76b445727141c3c99b467",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "1560609be076f1c230b47b55f2f3ae2a209d410ef73d665f487961cb941b5872": {
+      "address": "0x4297Bd2D38e9790403f60F27557E57610d10d04A",
+      "txHash": "0x282fc892e07abe7ec41b5692cf512b0c28bd0b7fe849f9268fbccc33984f1174",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "score",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "BusinessLogic_v1",
+            "src": "contracts\\BusinessLogic_v1.sol:12"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "4eb861ec14427045072948573fc2476a32390ab5ba9c73f0448724b60a6cc82d": {
+      "address": "0x1e18f460eBB1F93165Ab3b0B70d4d73005C2aA02",
+      "txHash": "0xb530e41be1f3f3f2e94f25e016d5ca145521531a1ab97d2b2d8e74939ec85f45",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "score",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "BusinessLogic_v1",
+            "src": "contracts\\BusinessLogic_v1.sol:12"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "b9b5f81110489af4a030892d819505023b0d72ea33165cf16890f38104ebfec2": {
+      "address": "0xBcb1272c84870BD11005dFFbB50bB4D5ae0A2d24",
+      "txHash": "0xeb383784ee6303de47384fb56a40e3114e0887a595a54d8cbc00954f7a95889f",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "score",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "BusinessLogic_v1",
+            "src": "contracts\\BusinessLogic_v1.sol:12"
+          },
+          {
+            "label": "studentNum",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "BusinessLogic_v3",
+            "src": "contracts\\BusinessLogic_v3.sol:12"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
